@@ -10,13 +10,15 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 #importing gtts module to convert text into Speech.pip install gtts
-
+#backend.
 from gtts import gTTS
 #importing random libr to store output file with diffrent no.
+#backend.
 import random
 
 class Ui_MainWindow(object):
         # Function for alert message dialog
+        #backend.
     def alertBox(self,title,message):
 
             Window=QtWidgets.QMessageBox()
@@ -51,7 +53,7 @@ class Ui_MainWindow(object):
                     else:
                             self.alertBox("Error!","Something Went Wrong!")
                 
-                  
+                  #backENDDED.
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(602, 528)
@@ -101,6 +103,7 @@ class Ui_MainWindow(object):
         self.Convert_Button.setObjectName("Convert_Button")
         MainWindow.setCentralWidget(self.centralwidget)
  # Connecting Text2Speech function with Convert_button
+#backend.
         self.Convert_Button.clicked.connect(self.Text2Speech)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
