@@ -9,5 +9,5 @@ SCREENSHOT.
 
 ![image](https://user-images.githubusercontent.com/62507205/97101814-a3c07200-165d-11eb-9412-a5a842683827.png)
 
-5.The output file in the form of .mp3 in the same folder.
+5.The output file is stored in the form of .mp3 in the same folder.
 6. you can also convert Text2Speech.py into .exe format by pyinstaller(pyinstaller --onefile -w Text2Speech.py) and use permanently on window.
